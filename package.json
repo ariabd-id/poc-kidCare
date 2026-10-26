@@ -1,0 +1,27 @@
+{
+  "name": "kidcare-clinic-poc",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "lint": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^6.1.0",
+    "@ant-design/nextjs-registry": "^1.1.0",
+    "antd": "^6.0.0",
+    "dayjs": "^1.11.18",
+    "next": "^16.0.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "typescript": "^5.7.2",
+    "vitest": "^3.0.0"
+  }
+}
